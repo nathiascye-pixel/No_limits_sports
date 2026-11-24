@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us — No Limits Sports</title>
+    <meta
+      name="description"
+      content="Learn about No Limits Sports, established November 2026 in Singapore, specializing in outdoor hiking shoes and lightweight jogging gear."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Unified Minimalist Header -->
+      <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="brand-lockup" aria-label="No Limits Sports Home">
+          <img
+            src="./img/No_limits_logo_5ee418f4.svg"
+            alt="No Limits Sports"
+            class="brand-logo"
+          />
+        </a>
+
+        <nav class="site-nav" aria-label="Main Navigation">
+          <a href="index.html">Home</a>
+          <a href="aboutus.html" class="active">About Us</a>
+          <a href="products.html">Products</a>
+          <a href="contactus.html">Contact Us</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="search-container">
+            <form class="header-search" role="search">
+              <svg
+                class="search-leading-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input
+                id="search-input"
+                type="search"
+                name="q"
+                placeholder="Search shoes &amp; gear..."
+                aria-label="Search hiking shoes and gear"
+                autocomplete="off"
+              />
+            </form>
+
+            <div id="search-dropdown" class="dropdown-content" aria-label="Recommended products">
+              <div class="dropdown-header">Shoes &amp; Sports Gear</div>
+              <a href="products.html?q=RidgePro" class="dropdown-item">
+                <img src="./img/No_Limits_RidgePro_X1_-_S_139.90__Men__Side_view_a02f286f.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Men's Hiking — No Limits RidgePro X1</span>
+                <span class="dropdown-item-meta">S$139.90</span>
+              </a>
+              <a href="products.html?q=Summit" class="dropdown-item">
+                <img src="./img/No_Limits_Summit_X1__Men__-_S_119.90_Side_view_1a8578b5.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Men's Hiking — No Limits Summit X1</span>
+                <span class="dropdown-item-meta">S$119.90</span>
+              </a>
+              <a href="products.html?q=Sierra" class="dropdown-item">
+                <img src="./img/No_Limits_Sierra_W1__women__-_S_139.90_Side_view_4f2344ae.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Women's Hiking — No Limits Sierra W1</span>
+                <span class="dropdown-item-meta">S$139.90</span>
+              </a>
+              <a href="products.html?q=Alpine" class="dropdown-item">
+                <img src="./img/No_Limits_Alpine_W1__Women__-_S_129.90_Side_view_228c4815.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Women's Hiking — No Limits Alpine W1</span>
+                <span class="dropdown-item-meta">S$129.90</span>
+              </a>
+              <a href="products.html?q=Journey" class="dropdown-item">
+                <img src="./img/No_Limits_Journey_X1__Men__-_S_129.90_Side_view_25b6a732.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Men's Jogging — No Limits Journey X1</span>
+                <span class="dropdown-item-meta">S$129.90</span>
+              </a>
+              <a href="products.html?q=Motion" class="dropdown-item">
+                <img src="./img/No_Limits_Motion_X1__Men__-_S_109.90_Side_view_4db2e911.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Men's Jogging — No Limits Motion X1</span>
+                <span class="dropdown-item-meta">S$109.90</span>
+              </a>
+              <a href="products.html?q=Glide" class="dropdown-item">
+                <img src="./img/No_Limits_Glide_W1__Women__-_S_129.90_Side_view_2632f1a4.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Women's Jogging — No Limits Glide W1</span>
+                <span class="dropdown-item-meta">S$129.90</span>
+              </a>
+              <a href="products.html?q=Flow" class="dropdown-item">
+                <img src="./img/No_Limits_Flow_W1__Women__-_S_109.90_Side_view_042c4379.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Women's Jogging — No Limits Flow W1</span>
+                <span class="dropdown-item-meta">S$109.90</span>
+              </a>
+              <a href="products.html?q=TrailPack" class="dropdown-item">
+                <img src="./img/No_Limits_TrailPack_25L_-_Hiking_Backpack_bda26c87.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Unisex Gear — No Limits TrailPack 25L</span>
+                <span class="dropdown-item-meta">S$89.90</span>
+              </a>
+              <a href="products.html?q=ActivePack" class="dropdown-item">
+                <img src="./img/No_Limits_ActivePack_-_Sports_Duffel_Bag_bc3fd767.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Unisex Gear — No Limits ActivePack Duffel</span>
+                <span class="dropdown-item-meta">S$79.90</span>
+              </a>
+              <a href="products.html?q=Bottle" class="dropdown-item">
+                <img src="./img/No_Limits_Motion_Bottle_750ml_-_Sports_Water_Bottle_dc92d54f.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Unisex Gear — No Limits Motion Bottle 750ml</span>
+                <span class="dropdown-item-meta">S$39.90</span>
+              </a>
+              <a href="products.html?q=Cap" class="dropdown-item">
+                <img src="./img/No_Limits_Summit_Cap_-_Hiking_Cap_34d2e4e3.jpg" alt="" class="dropdown-thumb" />
+                <span class="dropdown-item-title">Unisex Gear — No Limits Summit Cap</span>
+                <span class="dropdown-item-meta">S$29.90</span>
+              </a>
+              <div id="dropdown-empty" class="dropdown-empty" hidden>
+                No direct matches. <a href="products.html" class="product-inquiry-link">Browse all</a>
+              </div>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            id="wishlist-trigger"
+            class="wishlist-header-btn"
+            aria-label="Open wishlist, 0 saved items"
+            aria-haspopup="dialog"
+            aria-controls="wishlist-drawer"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <span id="wishlist-count" class="wishlist-count">0</span>
+          </button>
+
+          <button
+            type="button"
+            id="cart-trigger"
+            class="wishlist-header-btn cart-header-btn"
+            aria-label="Open cart, 0 items"
+            aria-haspopup="dialog"
+            aria-controls="cart-drawer"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span id="cart-count" class="wishlist-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. Promo Announcement Strip -->
+    <div class="promo-strip" role="region" aria-label="Promotions">
+      <p>
+        Free Islandwide Delivery in Singapore &amp; 30-Day Free Returns
+        <span class="promo-sep" aria-hidden="true">&middot;</span>
+        <a href="products.html" class="promo-link">Explore Gear</a>
+      </p>
+    </div>
+
+    <main>
+      <!-- 1. Page Header Band -->
+      <section class="about-intro-band" aria-labelledby="about-page-title">
+        <div class="container">
+          <h1 id="about-page-title">About Us</h1>
+          <p class="about-intro-subtitle">
+            Who we are, what we craft for Singapore trails, and why we started.
+          </p>
+        </div>
+      </section>
+
+      <!-- 2. Our Story + Company Photo Split -->
+      <section class="about-story-band" aria-labelledby="about-story-heading">
+        <div class="container about-story-grid">
+          <div class="about-story-copy">
+            <h2 id="about-story-heading">Our Story</h2>
+            <p>
+              Founded in Singapore in November 2026, No Limits Sports began with a simple goal:
+              creating outdoor footwear and gear built for tropical humidity and sudden rain—light
+              enough for daily city runs and tough enough for wet granite trails.
+            </p>
+            <p>
+              From weekend trials across Bukit Timah and MacRitchie to our design bench at No
+              Limits Sports Studio, we craft breathable hiking and jogging shoes alongside durable
+              trail packs, hydration bottles, and caps made for everyday movement.
+            </p>
+          </div>
+
+          <div class="about-company-photo">
+            <img
+              src="./img/Our_story_swiper_d45fd4f3.jpg"
+              alt="Two runners jogging along a sunlit wooden forest boardwalk in Singapore"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. 4-Column Dark Stats Strip -->
+      <section class="about-stats-band" aria-label="Brand Milestones and Specifications">
+        <div class="container about-stats-grid">
+          <div class="about-stat-item">
+            <span class="about-stat-value tabular-nums">Nov 2026</span>
+            <span class="about-stat-label">Founded in Singapore</span>
+          </div>
+          <div class="about-stat-item">
+            <span class="about-stat-value">All-Weather</span>
+            <span class="about-stat-label">Strong Grip on Wet Trails</span>
+          </div>
+          <div class="about-stat-item">
+            <span class="about-stat-value">Breathable</span>
+            <span class="about-stat-label">Light &amp; Cool on Daily Runs</span>
+          </div>
+          <div class="about-stat-item">
+            <span class="about-stat-value tabular-nums">18+</span>
+            <span class="about-stat-label">Trails &amp; Gear Tested</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Mission, Vision, Values 3-Card Band -->
+      <section class="about-mvv-band" aria-label="Mission, Vision, and Values">
+        <div class="container about-mvv-grid">
+          <article class="about-mvv-card">
+            <div class="about-mvv-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"></circle>
+                <circle cx="12" cy="12" r="4"></circle>
+                <line x1="12" y1="3" x2="12" y2="5"></line>
+              </svg>
+            </div>
+            <h2>Mission</h2>
+            <p>
+              To equip Singapore hikers and daily runners with breathable, wet-grip footwear that
+              transitions effortlessly from muddy ridge climbs to city paths.
+            </p>
+          </article>
+
+          <article class="about-mvv-card">
+            <div class="about-mvv-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </div>
+            <h2>Vision</h2>
+            <p>
+              A local outdoor community where every runner and weekend trekker can step onto any
+              trail with reliable comfort, honest sizing, and zero excess bulk.
+            </p>
+          </article>
+
+          <article class="about-mvv-card">
+            <div class="about-mvv-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <h2>Values</h2>
+            <p>
+              Real-route testing before release, quick-dry tropical durability, and straightforward
+              in-person fitting advice at our Singapore studio.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 5. Bottom CTA Band -->
+      <section class="about-bottom-cta" aria-labelledby="about-bottom-cta-heading">
+        <div class="container about-bottom-cta-inner">
+          <div class="about-bottom-cta-copy">
+            <h2 id="about-bottom-cta-heading">Want to work with us?</h2>
+            <p>
+              Visit us at 123 Singapore Street, #01-01, Singapore 123456 (a 5-minute walk from Ang
+              Mo Kio MRT), call +65 8123 4567, or email No_limits_sports@gmail.com.
+            </p>
+          </div>
+          <a href="contactus.html" class="about-bottom-cta-btn">Contact us</a>
+        </div>
+      </section>
+    </main>
+
+      <!-- Shared Footer -->
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div class="footer-col footer-brand-col">
+            <p class="footer-copyright">&copy; 2026 No Limits Sports. All rights reserved.</p>
+            <p class="footer-contact-line">
+              Email:
+              <a href="mailto:No_limits_sports@gmail.com" class="footer-link">No_limits_sports@gmail.com</a>
+            </p>
+            <p class="footer-contact-line">
+              Phone: +65 8123 4567
+            </p>
+          </div>
+
+          <div class="footer-col footer-hours-col">
+            <p><strong>Opening Hours:</strong> Mon&ndash;Sat 10:00 AM &ndash; 8:00 PM, Sun 11:00 AM &ndash; 6:00 PM</p>
+            <p><strong>Address:</strong> 123 Singapore Street, #01-01, Singapore 123456</p>
+          </div>
+
+          <div class="footer-col footer-social-col">
+            <a href="contactus.html" class="footer-center">Contact Us</a>
+            <div class="footer-social-icons" aria-label="Social Media Links">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-circle footer-social-circle"
+                aria-label="Facebook"
+                title="Facebook"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z" />
+                </svg>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-circle footer-social-circle"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z" />
+                </svg>
+              </a>
+
+              <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-circle footer-social-circle"
+                aria-label="X"
+                title="X"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-circle footer-social-circle"
+                aria-label="Instagram"
+                title="Instagram"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Loads the list of all shoes and sports gear products -->
+    <script src="./catalog.js"></script>
+    <!-- Handles saving items to the wishlist drawer across all pages -->
+    <script src="./wishlist.js"></script>
+    <!-- Handles adding items, changing quantities, and viewing totals in the shopping cart drawer -->
+    <script src="./cart.js"></script>
+    <!-- Controls the header search bar dropdown on the About Us page -->
+    <script>
+      // Header search bar: filters the dropdown product suggestions as the user types
+      const searchInput = document.getElementById('search-input');
+      const dropdown = document.getElementById('search-dropdown');
+      const dropdownItems = Array.from(dropdown.querySelectorAll('.dropdown-item'));
+      const emptyState = document.getElementById('dropdown-empty');
+
+      function updateDropdown() {
+        const query = searchInput.value.trim().toLowerCase();
+        if (!query) {
+          dropdown.classList.remove('is-open');
+          return;
+        }
+        let visibleCount = 0;
+        dropdownItems.forEach((item) => {
+          const match = item.textContent.toLowerCase().includes(query);
+          item.style.display = match ? 'flex' : 'none';
+          if (match) visibleCount += 1;
+        });
+        emptyState.hidden = visibleCount > 0;
+        dropdown.classList.add('is-open');
+      }
+
+      searchInput.addEventListener('input', updateDropdown);
+      searchInput.addEventListener('focus', () => {
+        if (searchInput.value.trim().length > 0) updateDropdown();
+      });
+      document.querySelector('.header-search').addEventListener('submit', (e) => {
+        e.preventDefault();
+        updateDropdown();
+      });
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.search-container')) {
+          dropdown.classList.remove('is-open');
+        }
+      });
+    </script>
+  </body>
+</html>
